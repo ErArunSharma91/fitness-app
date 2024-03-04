@@ -1,0 +1,50 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #fff;
+}
+
+.backButton,
+.loginIcon {
+  color: #000000;
+}
+
+.rightSection {
+  align-items: center;
+}
+
+.iconButton {
+  color: #fff;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 8px 16px;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding: 6px 12px;
+  }
+  .title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    padding: 6px 10px;
+  }
+  .title {
+    font-size: 0.8rem;
+  }
+}

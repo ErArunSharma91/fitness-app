@@ -1,0 +1,33 @@
+/* SubHeader.css */
+.subheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: -100px;
+}
+
+.buttons {
+  display: flex;
+}
+.lowercaseButton {
+  text-transform: capitalize;
+}
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: -60px;
+  }
+}
